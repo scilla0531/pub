@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T08:09:43.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="JsncVOBoX4yFfy__wxAy" version="16.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-25T08:12:10.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="EDzqRpV9W0Q_LTTJ9ZQ3" version="16.6.1" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2890" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -14,18 +14,12 @@
           <mxGeometry x="400" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-3" vertex="1">
-          <mxGeometry x="45" y="120" width="10" height="200" as="geometry" />
+          <mxGeometry x="45" y="120" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-4" value="ovs-agent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="540" y="80" width="100" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="f4Wq_F3CazVlj-oZ5k1Y-9" value="router create" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="7baba1c4bc27f4b0-4" target="7baba1c4bc27f4b0-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-85" y="131" as="sourcePoint" />
-            <mxPoint x="70" y="131" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f4Wq_F3CazVlj-oZ5k1Y-10" value="update port status" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="7baba1c4bc27f4b0-4">
+        <mxCell id="f4Wq_F3CazVlj-oZ5k1Y-10" value="update_device_list" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="7baba1c4bc27f4b0-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="214.5" as="sourcePoint" />
             <mxPoint x="-85" y="214.5" as="targetPoint" />
@@ -158,6 +152,12 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="16" y="121" as="sourcePoint" />
             <mxPoint x="250.4000000000001" y="120.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4Wq_F3CazVlj-oZ5k1Y-9" value="router create" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.9;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="294" y="235.4000000000001" as="sourcePoint" />
+            <mxPoint x="729.5" y="235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
